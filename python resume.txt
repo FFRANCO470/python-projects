@@ -1,0 +1,14 @@
+#insertar datos
+
+nombre = str(input("Nombre del empleado: "))
+horas = int(input("Numero de horas trabajadas: "))
+_______________
+
+# condicionales
+
+if a>b:
+    print('El mayor es : a =', a)
+elif b>c:
+    print('El mayor es : b =', b) 
+else :     
+    print('El mayor es : c =', c) 

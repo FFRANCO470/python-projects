@@ -1,0 +1,12 @@
+numerosImpares = 0
+numerosPares = 0
+numero = int (input ('Ingrese un numero o cero para detener => '))
+while numero != 0:
+    if numero % 2 == 1:
+        numerosImpares +=1
+    else:
+        numerosPares +=1
+    numero = int (input ('Ingrese un numero o cero para detener => '))
+
+print ("numeros impares ",numerosImpares)
+print ("numeros pares ",numerosPares)

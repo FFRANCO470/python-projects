@@ -1,0 +1,20 @@
+def run():
+    ERROR = False
+    try:
+        opcion = int(input('Centigrados a fahrenheit = 1\nFahrenheit a centigrados = 2\n'))
+        grados = float(input('Grados: '))
+    except:
+        ERROR = True
+
+    if ERROR:
+        return print('Error en el ingreso de datos')
+    else:
+        if opcion == 1:
+            TOTAL = ((grados * 9/5) + 32)
+            return print(f'{grados} grados centigrados a fahrenheit son {round(TOTAL, 1)}')
+        else:
+            TOTAL = ((grados - 32) * 5/9)
+            return print(f'{grados} grados fahrenheit a centigrados son {round(TOTAL, 1)}')
+
+if __name__ == '__main__':
+    run()

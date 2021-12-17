@@ -1,0 +1,5 @@
+contar=1
+numero = int (input ('Ingrese un numero a multiplicar (eje:3) => '))
+while contar <= 10:
+    print(numero,'x',contar,'=',numero*contar)
+    contar +=1

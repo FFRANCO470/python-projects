@@ -1,0 +1,17 @@
+lista1 =[]
+lista2 =[]
+num = int (input ('Ingrese un numero de 1 a 10 (eje:3) => '))
+num2=num
+if num>=1 and num<=10:
+    while num<=10:
+        lista1.append(num)
+        num+=1
+
+    while num2>=1:
+        lista2.append(num2)
+        num2-=1
+    
+    print(lista1)
+    print(lista2)
+else:
+    print('numero invalido')

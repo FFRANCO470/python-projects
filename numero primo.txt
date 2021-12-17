@@ -1,0 +1,14 @@
+cond = "v"
+m = 2
+numero = int(input('ingrese un numero (eje:3) => '))
+
+while m<numero and cond == "v":
+    if(numero % m) ==0:#si residuo igual a cero entonces es divisible por otro numero y no es primo
+        cond = "f"
+    else:
+        m+=1
+
+if cond == "v":
+    print('el numero es primo')
+else:
+    print('el numero no es primo')
